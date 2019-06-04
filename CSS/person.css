@@ -1,0 +1,85 @@
+.firstbutton {
+    padding: 15px 50px;
+    font-size: 1.3em;
+    font-family: 'Lora', serif;
+    background-color: firebrick;
+    color: white;
+    margin-top: 20px;
+    font-weight: 500;
+    margin-bottom: 100px;
+    border-radius: 5px;
+}
+
+
+
+.firstbutton:hover {
+    background-color: white;
+    color: firebrick;
+}
+
+
+.secondbutton {
+    padding: 15px 50px;
+    font-size: 1.3em;
+    font-family: 'Lora', serif;
+    background-color: firebrick;
+    color: white;
+    margin-top: 20px;
+    font-weight: 500;
+    margin-bottom: 100px;
+    border-radius: 5px;
+}
+
+
+
+.secondbutton:hover {
+    background-color: white;
+    color: firebrick;
+}
+
+.text {
+    font-family: 'Courgette', cursive;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+
+}
+
+.inputText {
+    font-family: 'Courgette', cursive;
+    font-size: 1.5em;
+    text-align: center;
+    color: navy;
+    border-radius: 10px;
+    background-color: navy;
+
+}
+
+#clickHere {
+    padding: 15px 50px;
+    font-size: 1.3em;
+    font-family: 'Lora', serif;
+    background-color: firebrick;
+    color: white;
+    margin-top: 50px;
+    font-weight: 500;
+    margin-bottom: 100px;
+    border-radius: 5px;
+}
+
+#clickHere:hover {
+    background-color: white;
+    color: firebrick;
+}
+
+#clickHere::-webkit-input-placeholder {
+    color: dimgrey;
+}
+
+#clickHere:-ms-input-placeholder {
+    color: dimgrey;
+}
+
+#clickHere::placeholder {
+    color: dimgrey;
+}
