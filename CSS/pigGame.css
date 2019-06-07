@@ -1,0 +1,382 @@
+@media screen and (min-width:0px) {
+    html {
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.7))), url(../images/backgroundGame.jpg);
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(../images/backgroundGame.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100vh;
+
+    }
+
+    body {
+        font-family: 'Lora', serif;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
+    .introMessage {
+        color: white;
+        font-size: 2.4em;
+        text-align: center;
+        font-family: 'Kaushan Script',
+            cursive;
+        padding: 120px 0px 70px 0px;
+
+
+    }
+
+    .para {
+        font-family: 'Courgette', cursive;
+        font-size: 1.5em;
+        text-align: center;
+        color: white;
+
+    }
+
+
+    #rules {
+        position: absolute;
+
+    }
+
+    .inputText {
+        font-family: 'Courgette', cursive;
+        font-size: 1.5em;
+        text-align: center;
+        color: black;
+        border-radius: 10px;
+        background-color: white;
+        padding: 10px 20px;
+        margin-bottom: 40px;
+
+    }
+
+    .btn {
+        padding: 15px 50px;
+        font-size: 1.3em;
+        font-family: 'Lora', serif;
+        background-color: coral color: white;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+
+    #start {
+        margin-top: -132px;
+    }
+
+
+    .btn:hover {
+        background-color: white;
+        color: firebrick;
+    }
+
+
+    .guide {
+        color: white;
+        font-size: 2em;
+        text-align: center;
+        font-family: 'Kaushan Script',
+            cursive;
+        padding: 100px 0px 0px 0px;
+
+    }
+
+    .btn {
+        padding: 15px 50px;
+        font-size: 1.3em;
+        font-family: 'Lora', serif;
+        background-color: white;
+        color: firebrick;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 200px;
+        margin-bottom: 140px;
+
+    }
+
+
+
+    .btn:hover {
+        background-color: grey;
+        color: firebrick;
+    }
+
+    ul {
+        max-width: 70%;
+        list-style-type: none;
+
+    }
+
+    li {
+        color: white;
+        font-family: 'Courgette', cursive;
+        font-size: 1.5em;
+        padding: 20px 0px;
+
+    }
+
+
+    .input {
+        font-family: 'Courgette', cursive;
+        font-size: 1.2em;
+        text-align: center;
+        color: white;
+        margin-top: -20px;
+
+    }
+
+    .noInput::-webkit-input-placeholder {
+        color: red;
+    }
+
+    .noInput:-ms-input-placeholder {
+        color: red;
+    }
+
+    .noInput::placeholder {
+        color: red;
+    }
+
+
+    /** Styling for the game */
+    .para1 {
+        font-family: 'Courgette', cursive;
+        font-size: 2em;
+        text-align: center;
+        color: white;
+    }
+
+    .para2 {
+        font-family: 'Courgette', cursive;
+        font-size: 2em;
+        text-align: center;
+        color: firebrick;
+    }
+
+    #player-1-box {
+        background-color: white;
+    }
+
+    .box {
+        display: inline-block;
+        width: 100%;
+        padding-top: 200px;
+    }
+
+    .total1 {
+
+        font-size: 6em;
+        text-align: center;
+        color: firebrick;
+    }
+
+    .total2 {
+
+        font-size: 6em;
+        text-align: center;
+        color: white;
+    }
+
+    .gameButton {
+        border: none;
+        background: none;
+        font-family: 'Courgette', cursive;
+        font-size: 1.7em;
+        transition: 0.1s;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+
+
+    }
+
+    .gameButton:hover {
+        font-size: 1.75em;
+    }
+
+    .gameButton:focus {
+        outline: none;
+    }
+
+    #newGame {
+        transform: translateY(-1620px);
+    }
+
+    #roll {
+        transform: translateY(-1625px);
+    }
+
+    #hold {
+        transform: translateY(-1520px);
+    }
+
+    #dice {
+        transform: translateY(-875px);
+        width: 140px;
+        height: 140px;
+
+
+
+    }
+
+    .para3 {
+        font-family: 'Courgette', cursive;
+        font-size: 1.5em;
+        text-align: center;
+        color: white;
+
+    }
+
+    .para4 {
+        font-family: 'Courgette', cursive;
+        font-size: 1.5em;
+        text-align: center;
+        color: firebrick;
+    }
+
+    .colour {
+        background-color: firebrick;
+        max-width: 50%;
+        padding-top: 20px;
+        box-shadow: 5px 5px 5px 5px;
+    }
+
+    .colour1 {
+        background-color: white;
+        padding-top: 20px;
+        max-width: 50%;
+        box-shadow: 5px 5px 5px 5px;
+    }
+
+
+
+    .player-1-roundText {
+
+        font-size: 2.4em;
+        text-align: center;
+        color: white;
+        padding-bottom: 20px;
+    }
+
+    .player-2-roundText {
+
+        font-size: 2.4em;
+        text-align: center;
+        color: firebrick;
+        padding-bottom: 20px;
+    }
+
+
+    /** end game styling */
+
+    .endBackground {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .endMessage {
+        color: firebrick;
+        font-size: 2.4em;
+        text-align: center;
+        font-family: 'Kaushan Script',
+            cursive;
+        max-width: 80%;
+        /*    padding: 120px 0px 70px 0px;*/
+
+    }
+
+    .endBtn {
+        padding: 15px 50px;
+        font-size: 1.3em;
+        font-family: 'Lora', serif;
+        background-color: firebrick;
+        font-weight: 500;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .endBtn:hover {
+        opacity: 0.9;
+
+
+    }
+
+    .endPara {
+        font-family: 'Courgette', cursive;
+        font-size: 1.5em;
+        text-align: center;
+        color: firebrick;
+        background-color: white;
+        max-width: 20%;
+        padding: 20px 20px;
+        transform: translateY(-100px);
+
+        border-radius: 10px;
+        box-shadow: 10px 5px 5px 5px black;
+    }
+
+    .resetBtn {
+        padding: 15px 50px;
+        font-size: 1.3em;
+        font-family: 'Lora', serif;
+        background-color: white;
+        color: firebrick;
+        font-weight: bold;
+        /*    font-weight: 500;*/
+        border-radius: 5px;
+        transform: translateY(-40px);
+    }
+
+    .resetBtn:hover {
+        background-color: grey;
+        color: firebrick;
+    }
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+
+    .box {
+        display: inline-block;
+        width: 49.8%;
+        padding-top: 40px;
+    }
+
+
+
+    #newGame {
+        transform: translateY(-570px);
+    }
+
+    #roll {
+        transform: translateY(-300px);
+    }
+
+    #hold {
+        transform: translateY(-180px);
+    }
+
+    #dice {
+        transform: translateY(-575px);
+        width: 150px;
+        height: 150px;
+
+
+    }
+
+}

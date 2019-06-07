@@ -1,0 +1,117 @@
+@media screen and (min-width: 0px) {
+    html {
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.7))), url(../images/backgroundGame.jpg);
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(../images/indexbackground.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100vh;
+
+    }
+
+    body {
+        font-family: 'Lora', serif;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
+    .introMessage {
+        color: white;
+        font-size: 2.4em;
+        text-align: center;
+        font-family: 'Kaushan Script',
+            cursive;
+        padding: 120px 0px 0px 0px;
+
+
+    }
+
+    .para {
+        font-family: 'Courgette', cursive;
+        font-size: 1.5em;
+        text-align: center;
+        color: white;
+        margin-top: -20px;
+
+    }
+
+    .box {
+        display: inline-block;
+        width: 49%;
+
+    }
+
+    #rules {
+        position: absolute;
+
+    }
+
+    .guide {
+        color: white;
+        font-size: 2em;
+        text-align: center;
+        font-family: 'Kaushan Script',
+            cursive;
+        padding: 100px 0px 0px 0px;
+
+    }
+
+    .btn {
+        padding: 15px 50px;
+        font-size: 1.3em;
+        font-family: 'Lora', serif;
+        background-color: coral color: white;
+        font-weight: 500;
+        border-radius: 5px;
+        margin-top: 400px;
+        margin-bottom: 140px;
+
+    }
+
+
+
+    .btn:hover {
+        background-color: white;
+        color: firebrick;
+    }
+
+    ul {
+        max-width: 70%;
+        list-style-type: none;
+
+    }
+
+    li {
+        color: white;
+        font-family: 'Courgette', cursive;
+        font-size: 1.5em;
+        padding: 20px 0px;
+
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width: 900px) {
+
+    .btn {
+        padding: 15px 50px;
+        font-size: 1.3em;
+        font-family: 'Lora', serif;
+        background-color: coral color: white;
+        font-weight: 500;
+        border-radius: 5px;
+        margin-top: 200px;
+        margin-bottom: 140px;
+
+    }
+
+
+
+
+}

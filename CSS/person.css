@@ -49,9 +49,10 @@
     font-family: 'Courgette', cursive;
     font-size: 1.5em;
     text-align: center;
-    color: navy;
+    color: white;
     border-radius: 10px;
     background-color: navy;
+    padding: 10px 20px;
 
 }
 
@@ -82,4 +83,25 @@
 
 #clickHere::placeholder {
     color: dimgrey;
+}
+
+
+.input {
+    font-family: 'Courgette', cursive;
+    font-size: 1.2em;
+    text-align: center;
+    color: red;
+
+}
+
+.noInput::-webkit-input-placeholder {
+    color: red;
+}
+
+.noInput:-ms-input-placeholder {
+    color: red;
+}
+
+.noInput::placeholder {
+    color: red;
 }

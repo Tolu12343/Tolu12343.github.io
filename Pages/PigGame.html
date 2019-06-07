@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="Everything about Tolu">
+    <meta name="keywords" content="Tolu, project list, About Tolu ">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0, Shrink-to-fit = no">
+    <meta http-equiv="X-UA-compatible" content="IE = edge, chrome = 1">
+    <meta http-equiv="Cache-control" content="no-cache">
+
+    <!-- External stylesheet -->
+    <link rel="stylesheet" type="text/css" href="../CSS/pigGame.css">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab|Bree+Serif|Cookie|Courgette|Crete+Round|Kaushan+Script|Lora|Nunito+Sans&display=swap" rel="stylesheet">
+
+    <!-- Font awesome icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" rel="stylesheet">
+
+    <!-- title of the page -->
+    <title>Pig Game</title>
+</head>
+
+<body>
+    <main style="padding-bottom: 60px;">
+        <section id="gameplayPage">
+            <h1 class="introMessage"> To begin, enter details below &nbsp; <i class="far fa-hand-point-down"></i></h1>
+            <section>
+
+                <p class="para paragraph"> First player's name or username </p>
+                <center>
+                    <input type="text" class="inputText" id="firstPlayer" placeholder="Username">
+
+                </center>
+
+                <p class="para paragraph1"> Second player's name or username </p>
+                <center>
+                    <input type="text" class="inputText" id="secondPlayer" placeholder="Username">
+
+                </center>
+
+
+                <p class="para paragraph2"> End point number for the game </p>
+                <center>
+                    <input type="text" class="inputText" id="number" placeholder="End Point">
+                </center>
+
+                <p class="input wrongMessage2"> Wrong end-point input! </p>
+
+
+            </section>
+            <div id="start">
+                <center>
+                    <button class=" btn" id="clickStart"> Start Game </button>
+                </center>
+            </div>
+        </section>
+
+        <center>
+            <section id="startGame" style=" width: 90%; background-color: firebrick; box-shadow: 10px 10px 5px 5px; margin-top: 250px">
+
+
+                <div class="box" id="player-1-box" style=" padding-bottom: 20px">
+                    <p class="para2 firstPlayer"> <span id="firstPlayerName"></span> <i class="fas fa-circle" style="font-size: 0.5em" id="player-1-active"></i></p>
+                    <p class="player-1-total total1"> 0</p>
+                    <center>
+                        <div id="player-1-roundScore" class="colour">
+                            <p class="para3" id="player-1-roundScoreDesign"> Round Score</p>
+                            <p id="player-1-round" class="player-1-roundText"> 0</p>
+
+                        </div>
+                    </center>
+
+                </div>
+                <div class="box" id="player-2-box" style="background-color: firebrick;padding-bottom: 20px">
+                    <p class="para1 secondPlayer"> <span id="secondPlayerName"></span> <i class="fas fa-circle" style="font-size: 0.5em" id="player-2-active"></i></p>
+                    <p class="player-2-total total2"> 0</p>
+                    <div id="player-2-roundScore" class="colour1">
+                        <p class="para4" id="player-2-roundScoreDesign"> Round Score</p>
+                        <p id="player-2-round" class="player-2-roundText"> 0</p>
+
+                    </div>
+                </div>
+
+
+                <center>
+                    <button class="gameButton" id="newGame" style="margin-right: 24px;"><i class="far fa-plus-square"></i> New Game</button>
+                </center>
+
+
+                <center>
+                    <button class="gameButton" id="hold" style="margin-right: 50px;"><i class="far fa-pause-circle"></i> Hold</button>
+                </center>
+                <center>
+                    <button class="gameButton" id="roll" style="margin-right: 38px;"><i class="fas fa-sync"></i> Roll Dice</button>
+                </center>
+
+                <center id="diceRoller">
+                    <img src="" alt="dice" id="dice">
+                </center>
+
+
+
+                <center>
+                    <p class="endPara"> End point = <span id="endValue"></span></p>
+                </center>
+
+                <center>
+                    <a id="resetAnchor"><button class=" resetBtn" id="clickReset"> Reset Game </button></a>
+                </center>
+
+            </section>
+        </center>
+        <center>
+            <section id="endGame" class="endBackground" style="width: 90%; background-color: white; box-shadow: 5px 2px 2px 5px firebrick">
+                <h1 class="endMessage"> <span id="endText">Saernkjngjnhngjhn,</span> you are the Champion!!! &nbsp; Well done!!! &nbsp; Here's a trophy for you &nbsp;<i class="fas fa-trophy"></i></h1>
+                <center>
+                    <button class="endBtn" id="playAgain"> Play Again</button>
+                </center>
+            </section>
+        </center>
+
+
+
+
+    </main>
+    <script src="../Scripts/script.js"></script>
+</body>
+
+</html>
