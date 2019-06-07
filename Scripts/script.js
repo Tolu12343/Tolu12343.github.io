@@ -323,7 +323,7 @@ document.getElementById('clickReset').addEventListener('click', function () {
     document.getElementById('gameplayPage').style.display = "block";
     document.getElementById('gameplayPage').style.display = "contents";
     document.getElementById('startGame').style.display = "none";
-    document.getElementById('resetAnchor').href = "../Pages/pigGame.html";
+    document.getElementById('resetAnchor').href = "pigGame.html";
     activeCheck = "refresh";
     localStorage.setItem('activeChecker', JSON.stringify(activeCheck));
 
